@@ -9,7 +9,27 @@
   <body>
     <main>
       <h1>Текстовый редактор с автосохранением</h1>
-      <div id="editor" contenteditable="true" class="editor"></div>
+      <div id="editor" contenteditable="true" class="editor">
+        <h1 id="title">Hello, World!</h1>
+        <p>
+          <span id="author"
+            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
+            explicabo atque omnis eos modi qui laboriosam amet, nam vitae quidem
+            culpa iure in, quis excepturi ducimus deleniti veniam harum.
+            Esse.</span
+          >
+        </p>
+        <p id="content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          saepe ducimus quam velit explicabo! Et magni quas ipsam commodi
+          fugiat? At repellat ratione natus quam ex doloribus in itaque libero.
+        </p>
+      </div>
+      <div class="button-section">
+        <button class="redactor btn">Редактировать</button>
+        <button class="save btn" disabled>Сохранить</button>
+        <button class="close btn" disabled>Отмена</button>
+      </div>
     </main>
     <script src="js/main.js"></script>
   </body>
